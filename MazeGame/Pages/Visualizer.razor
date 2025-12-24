@@ -528,15 +528,15 @@
             // Throttled Sound Logic
             if (Delay <= 5)
             {
-                if (steps % 10 == 0) PlaySoundFast("sfx-visit"); 
+                if (steps % 10 == 0) PlaySoundFast("sfx-showPath"); 
             }
             else if (Delay <= 20)
             {
-                if (steps % 5 == 0) PlaySoundFast("sfx-visit"); 
+                if (steps % 5 == 0) PlaySoundFast("sfx-showPath"); 
             }
             else
             {
-                PlaySoundFast("sfx-visit"); 
+                PlaySoundFast("sfx-showPath"); 
             }
 
             if (Delay <= 10) { if (steps % 10 == 0) { StateHasChanged(); await Task.Delay(1); } }
