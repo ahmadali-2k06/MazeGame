@@ -1,0 +1,30 @@
+## Ignore Visual Studio temporary files, build results, and user-specific files ##
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+
+# User-specific Web config files
+*.csproj.user
+*.pubxml.user
+
+
+# Published website output 
+output/
+publish/
+wwwroot/_framework/
+
+# Log files
+*.log
